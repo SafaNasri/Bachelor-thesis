@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.3.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.3.1" pages="2">
   <diagram name="Figure 2.X Conceptual Logic Model" id="BtCae6bYfEoP0Q9oBzp0">
     <mxGraphModel dx="1838" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
@@ -54,6 +54,41 @@
             <mxPoint x="920" y="500" as="sourcePoint" />
             <mxPoint x="600" y="280" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5YnXXrSm3M2llmU2ZbqT" name="Page-2">
+    <mxGraphModel dx="1838" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5IQ3nP-m4i-n2pqNzauG-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;" value="Identification&lt;br&gt;&lt;br&gt;Records identified from databases (n = ___)&lt;br&gt;Records identified from other sources / snowballing (n = ___)" vertex="1">
+          <mxGeometry height="110" width="420" x="200" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5IQ3nP-m4i-n2pqNzauG-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;" value="Screening&lt;br&gt;&lt;br&gt;Duplicates removed (n = ___)&lt;br&gt;Records screened (title/abstract) (n = ___)&lt;br&gt;Records excluded (n = ___)" vertex="1">
+          <mxGeometry height="120" width="420" x="200" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="5IQ3nP-m4i-n2pqNzauG-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;" value="Eligibility&lt;br&gt;&lt;br&gt;Full-text articles assessed for eligibility (n = ___)&lt;br&gt;Full-text articles excluded, with reasons (n = ___)" vertex="1">
+          <mxGeometry height="120" width="420" x="200" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="5IQ3nP-m4i-n2pqNzauG-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;" value="Included&lt;br&gt;&lt;br&gt;Studies included in qualitative synthesis (n = ___)&lt;br&gt;(Optional) Studies included in framework development (n = ___)" vertex="1">
+          <mxGeometry height="120" width="420" x="200" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="5IQ3nP-m4i-n2pqNzauG-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;" value="Full-text exclusion reasons (examples)&lt;br&gt;&lt;br&gt;• Not relevant to BITA / AI / SDM focus&lt;br&gt;• Purely technical AI (no org./strategy angle)&lt;br&gt;• Non-banking / irrelevant sector context&lt;br&gt;• Insufficient methodological transparency&lt;br&gt;• Duplicate / earlier version / inaccessible full text" vertex="1">
+          <mxGeometry height="270" width="420" x="680" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="5IQ3nP-m4i-n2pqNzauG-6" edge="1" parent="1" source="5IQ3nP-m4i-n2pqNzauG-1" style="endArrow=block;html=1;rounded=0;" target="5IQ3nP-m4i-n2pqNzauG-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5IQ3nP-m4i-n2pqNzauG-7" edge="1" parent="1" source="5IQ3nP-m4i-n2pqNzauG-2" style="endArrow=block;html=1;rounded=0;" target="5IQ3nP-m4i-n2pqNzauG-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5IQ3nP-m4i-n2pqNzauG-8" edge="1" parent="1" source="5IQ3nP-m4i-n2pqNzauG-3" style="endArrow=block;html=1;rounded=0;" target="5IQ3nP-m4i-n2pqNzauG-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5IQ3nP-m4i-n2pqNzauG-9" edge="1" parent="1" source="5IQ3nP-m4i-n2pqNzauG-3" style="endArrow=block;html=1;rounded=0;" target="5IQ3nP-m4i-n2pqNzauG-5" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
